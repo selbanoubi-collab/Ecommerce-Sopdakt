@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+li a {
+    margin: 0 10px ;
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+}
+header {
+    background-color: black;
+    color: white;
+}
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px ;
+}
+.container-header .logo-header {
+    text-transform: uppercase;
+    
+}
+.container-header .logo-header a h1 {
+    color: white;
+}
+.container-shop .icon-shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.p-custom-icon  {
+
+    padding: 0 20px ;
+    color: white;
+}
+.p-custom-icon a i {
+    color: white;
+    font-size: 20px;
+}
+
+
+/* section-one  */ 
+
+.section-one-background {
+    height: calc(100vh - 77px);
+}
+.section-one-background .container-section-one {
+    display: flex; 
+    height: calc(100vh - 77px);
+    width: 100%;
+}
+
+
+.section-one-background .container-section-one .section-bg-balck {
+    background-color: black;
+    flex:1;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.section-one-background .container-section-one .section-bg-balck .section-one-text {
+        
+    
+}
+.section-one-background .container-section-one .section-bg-balck .section-one-text p{
+    color: white;
+    font-size: 22px;
+}
+.section-one-background .container-section-one .section-bg-balck .section-one-text .heading-one {
+        display: flex;
+        align-items: center;
+}
+
+.section-one-background .container-section-one .section-bg-balck .section-one-text .heading-one h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+.section-one-text .heading-one h1 {
+   font-size: 85px;
+    text-transform: uppercase;
+    color: #ff2300;
+    margin-left: 10px;
+    
+}
+
+.section-one-background .container-section-one .section-img-background {
+    background-image: url(./Images/background-one.png); 
+    flex: 1;
+    background-size: cover;
+    background-position: right;
+}
+.container-section-two {
+    background-color: rgba(32, 27, 27, 0.76);
+    height: 60vh;
+}
+.container-section-two .container {
+    display: flex;
+        background-color: rgba(32, 27, 27, 0.76);
+    height: 60vh;
+}
+
+.container-section-two .container .custom-size-cat {
+    flex: 1 ;
+    padding: 30px 0 ;
+}
+.container-section-two .container .one-category { 
+    background-image: url(./Images/proudact/t-shirt.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.container-section-two .container .one-category .overlay  {
+    background-color: rgba(26, 25, 25, 0.808); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: 0.3s ease-in-out
+    
+}
+.container-section-two .container .one-category:hover .overlay {
+    z-index: -1;
+    
+}
+.container-section-two .container .one-category h2 {
+
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 35px;
+
+
+}
+.container-section-two .container .one-category p {
+    text-align: center;
+}
+.container-section-two .container .two-category  {}
+.container-section-two .container .thre-category {}
+.container-section-two .container .four-category {}
+.container-section-two .container .five-category {}
